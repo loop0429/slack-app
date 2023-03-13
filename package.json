@@ -1,0 +1,36 @@
+{
+  "name": "slack-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "eslint --fix --ext .ts,.tsx --ignore-path .gitignore . && prettier --write ./**/*.{ts,tsx}"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "5.8.3",
+    "@mantine/hooks": "5.8.3",
+    "@mantine/next": "5.8.3",
+    "@supabase/supabase-js": "^2.4.0",
+    "@tabler/icons": "^1.119.0",
+    "axios": "^1.3.4",
+    "dayjs": "^1.11.7",
+    "next": "12.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.6.4",
+    "@types/react": "18.0.15",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.4",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "^2.8.2",
+    "typescript": "4.7.4"
+  }
+}
