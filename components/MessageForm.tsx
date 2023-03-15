@@ -18,7 +18,7 @@ const MessageForm: React.FC<Props> = ({
         <Grid>
           <Grid.Col span={10}>
             <Input
-              onChange={(e: any) => setMessage(e.target.value)}
+              onChange={(e) => setMessage(e.target.value)}
               value={message}
             />
           </Grid.Col>

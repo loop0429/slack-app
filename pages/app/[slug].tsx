@@ -127,7 +127,7 @@ export default function AppPage() {
     setUnread((prev) => {
       return prev.filter(x => x !== channelId)
     })
-  }, [messages])
+  }, [messages, channelId])
 
   useEffect(() => {
     if (query.slug) {
