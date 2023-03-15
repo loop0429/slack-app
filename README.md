@@ -15,6 +15,6 @@ Slackを模倣したアプリケーションです。
 usersテーブルに`avator_image`と`display_name`のカラムを追加。（どちらもtypeはtextで）
 4. ルートディレクトリの`.env.example`を元に`.env.local`を作成し、Supabaseのプロジェクト作成時に表示された`Project URL`・`Project API keys`を`NEXT_PUBLIC_SUPABASE_URL`・`NEXT_PUBLIC_SUPABASE_KEY`に記述
 5. `yarn dev`でアプリケーションを起動し、`アカウントを作成する`からアカウントを作成して開始
-6. Supabaseの管理画面でusersテーブルに5.で作成したアカウントが追加されるので、必要に応じて`avator_image`・`display_name`を設定  
+6. Supabaseの管理画面でusersテーブルに5.で作成したアカウントが追加されるので、必要に応じて`avator_image(画像url)`・`display_name(任意の文字列)`を設定  
 ※サンプルなので、その2箇所を設定するための画面・処理は作ってない  
 ※ちなみに設定しなくても問題ない
