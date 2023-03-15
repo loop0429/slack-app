@@ -18,3 +18,5 @@ usersテーブルに`avator_image`と`display_name`のカラムを追加。（�
 6. Supabaseの管理画面でusersテーブルに5.で作成したアカウントが追加されるので、必要に応じて`avator_image(画像url)`・`display_name(任意の文字列)`を設定  
 ※サンプルなので、その2箇所を設定するための画面・処理は作ってない  
 ※ちなみに設定しなくても問題ない
+
+2023/03/12(sun)の勉強会で試したDatabase Webhookを試したい場合は、PDFを参考にお試しください。
