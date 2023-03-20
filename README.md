@@ -19,4 +19,6 @@ usersテーブルに`avator_image`と`display_name`のカラムを追加。（�
 ※サンプルなので、その2箇所を設定するための画面・処理は作ってない  
 ※ちなみに設定しなくても問題ない
 
-2023/03/12(sun)の勉強会で試したDatabase Webhookを試したい場合は、PDFを参考にお試しください。
+2023/03/12(sun)の勉強会で試したDatabase Webhookを試したい場合は、PDF(`public/supabase.pdf`)を参考にお試しください。  
+※`.env`の`SLACK_WEBHOOK_URL`にSlackのWebhook Urlを記述。[この辺](https://zenn.dev/hotaka_noda/articles/4a6f0ccee73a18)を参考に。  
+※SupabaseのHttp Requestに記述するURLにlocalhostは使えないので、Vercelなどにデプロイして`/api/hook`へ対象にしてください。
